@@ -1,0 +1,36 @@
+@charset "utf-8";
+:root {
+    --primary-bg-color: rgb(254, 168, 0);
+    --primary-text-color: rgb(255, 92, 29);
+    --secondary-text-color: rgb(255, 254, 246);
+    --secondary-bg-color: rgb(255, 237, 202);
+}
+body {
+    background-color: var(--primary-bg-color);
+}
+h1 {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    text-transform: capitalize;
+}
+h2 {
+    color: var(--secondary-text-color);
+    font-size: 32px;
+}
+.list {
+    background-color: var(--secondary-bg-color);
+    width: 70%;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.text-center {
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+}
+.todo {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+}
