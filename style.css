@@ -19,18 +19,35 @@ h2 {
 }
 .list {
     background-color: var(--secondary-bg-color);
-    width: 70%;
+    width: 25%;
     margin: 0 auto;
+    padding: 30px 30px;
 }
 .row {
     display: flex;
+    align-items: center;
+}
+.row p {
+    flex: 1;
+    padding: 5px 0px;
+    text-indent: 20px;
 }
 .text-center {
     text-align: center;
     width: 15%;
     margin: 0 auto;
 }
-.todo {
+.todo-bg {
     background-color: var(--primary-bg-color);
+}
+.todo-text {
     color: var(--secondary-text-color);
+}
+.cornorline {
+    border-radius: 20px;
+}
+.checkbox-size {
+    width: 30px;
+    height: 30px;
+    align-items: space-around;
 }
