@@ -37,6 +37,15 @@ h2 {
     width: 15%;
     margin: 0 auto;
 }
+.desc-bg {
+    background-color: var(--primary-bg-color);
+}
+.desc-text {
+    color: var(--secondary-text-color);
+}
+.corner-rounded {
+    border-radius: 25px;
+}
 /* check 박스 라운드 처리 */
 .circle {
     display: inline-block;
